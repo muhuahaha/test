@@ -1,7 +1,7 @@
 const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
 
 console.log(gcd(6, 10));
-
+/*
 const testData = `Test.assertEquals(gcd(6, 10), 2)
 Test.assertEquals(gcd(17, 85), 17)
 Test.assertEquals(gcd(18, 153), 9)
@@ -85,3 +85,4 @@ function deleteCard(event) {
 buttonsDelete.forEach(button => button.addEventListener('click', deleteCard));
 
 console.log(document.getElementsByClassName('playerCard'));
+*/
